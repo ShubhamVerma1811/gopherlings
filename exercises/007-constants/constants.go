@@ -11,11 +11,12 @@
 package main
 
 import "fmt"
+import "math"
 
 func main() {
 	// In Go variable names must start with a letter.
-	const 20number = 20
-	fmt.Println(math.Sin(20number))
+	const number = 20
+	fmt.Println(math.Sin(number))
 
 	const abc = "abc"
 	fmt.Println(abc)
